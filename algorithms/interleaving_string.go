@@ -1,7 +1,7 @@
 package algorithms
 
 // Use Dynamic Programming Table Algo
-func isInterleave(s1 string, s2 string, s3 string) bool {
+func IsInterleave(s1 string, s2 string, s3 string) bool {
 	if len(s3) != len(s1)+len(s2) {
 		return false
 	}
